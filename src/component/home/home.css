@@ -1,0 +1,381 @@
+.main {
+    width: 100%;
+    height: 650px;
+    position: relative;
+}
+
+.main>img {
+    width: 100%;
+    height:500px;
+}
+
+.main>form>.form {
+    width: 25%;
+    height: 440px;
+    backdrop-filter: blur(50px);
+    position: absolute;
+    top: 40px;
+    right: 60px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.form>p {
+    color: whitesmoke;
+    font-size: 17px;
+}
+
+.form>h2 {
+    margin-top: 6px;
+    color: black;
+    font-weight: 500;
+    color: whitesmoke;
+}
+
+.form>input {
+    width: 95%;
+    height: 36px;
+    margin-top: 10px;
+    outline: none;
+    border-radius: 5px;
+    border: transparent;
+    background-color: rgb(248, 244, 248);
+    padding: 0px 0px 0px 5px;
+    font-size: 14px;
+}
+
+.form>input:hover{
+    border: 2px solid black;
+}
+
+
+.form>textarea {
+    outline: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    padding: 5px 0px 0px 2px;
+    background-color: rgb(248, 244, 248);
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid transparent;
+
+}
+
+.form>textarea:hover{
+    border: 2px solid black;
+}
+
+.form>span {
+    color: rgb(230, 220, 220);
+    font-size: medium;
+    font-weight: 400;
+    margin-left: 210px;
+    letter-spacing: 2px;
+}
+
+.form>span:hover {
+    color: rgb(67, 23, 67);
+    ;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.form>button {
+    width: 40%;
+    height: 30px;
+    margin-top: 15px;
+    border-radius: 8px;
+    border: transparent;
+    letter-spacing: 1px;
+    background-color: rgb(248, 244, 248);
+}
+
+.form>button:hover {
+    background-color: rgb(131, 97, 131);
+    cursor: pointer;
+    color: white;
+    border: 2px solid black;
+}
+
+.main>p {
+    position: absolute;
+    top: 100px;
+    left: 80px;
+    font-size: 90px;
+    color: rgb(232, 241, 249);
+}
+
+.main>.ad {
+    top: 200px;
+}
+
+.text {
+    width: 100%;
+    height: 95px;
+    line-height: 35px;
+    padding: 10px;
+    background-color: rgb(240, 235, 229);
+}
+
+.text>p {
+    font-size: 18px;
+}
+
+.text>p>a {
+    text-decoration: none;
+    color: rgb(62, 59, 55);
+    margin-left: 40px;
+    font-weight: 600;
+}
+
+.text>p>a:hover {
+    text-decoration: underline;
+}
+
+.fit {
+    width: 100%;
+    height: 150px;
+    text-align: center;
+    line-height: 145px;
+}
+
+.fit>h1 {
+    font-weight: 500;
+    font-size: 50px;
+    color: rgb(131, 97, 131);
+}
+
+.box {
+    width: 100%;
+    display: flex;
+    padding: 10px;
+}
+
+.box>.mini-box {
+    width: 25%;
+    padding: 10px;
+    border: 2px solid transparent;
+}
+
+.box>.mini-box:hover{
+    border: 2px solid rgb(138, 138, 134);
+}
+
+.color {
+    background-color: rgb(242, 233, 221);
+}
+
+.color2 {
+    background-color: rgb(234, 225, 236);
+}
+
+.box>.mini-box>.box-img>img {
+    width: 305px;
+}
+
+.box>.mini-box>.box-img>h2 {
+    margin-top: -6px;
+    padding: 5px;
+}
+
+.box>.mini-box>.box-text {
+    padding: 10px;
+    line-height: 40px;
+}
+
+.box-text>button {
+    width: 80px;
+    height: 35px;
+    border: none;
+    background-color: rgb(193, 190, 187);
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+.box-text>button:hover {
+    cursor: pointer;
+    border: 1px solid black;
+}
+
+.about {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    background-color: rgb(242, 233, 221);
+}
+
+.about>.about-text {
+    width: 40%;
+    padding-left: 20px;
+}
+
+.about-text>h1 {
+    font-size: 70px;
+    color: rgb(131, 97, 131);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.about-text>p {
+    font-size: 25px;
+    margin-top: 50px;
+}
+
+.about-text>button {
+    width: 30%;
+    padding: 10px;
+    letter-spacing: 2px;
+    font-size: 16px;
+    border: none;
+    margin-top: 85px;
+    color: rgb(14, 14, 14);
+    background-color: rgb(193, 190, 187);
+    border: 1px solid transparent;
+}
+
+.about-text>button:hover {
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.about>.about-img {
+    width: 70%;
+    text-align: end;
+}
+
+
+.about-img>img {
+    width: 80%;
+}
+
+.list {
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.list>p {
+    font-weight: 450;
+    font-size: 20px;
+}
+
+.list>h1 {
+    font-size: 60px;
+    color: rgb(131, 97, 131);
+}
+
+.box2 {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+    padding: 10px;
+    background-color: rgb(240, 235, 229);
+}
+
+.box2>.mini-box2 {
+    width: 28%;
+    padding: 10px;
+    text-align: center;
+    border: 2px solid transparent;
+}
+
+.box2>.mini-box2:hover{
+    border: 2px solid rgb(138, 138, 134);
+}
+
+.box2>.mini-box2>.box-img>img {
+    width: 360px;
+}
+
+.box2>.mini-box2>.box-text {
+    text-align: left;
+    margin-top: 10px;
+    line-height: 40px;
+}
+
+.list2 {
+    width: 100%;
+    text-align: center;
+    background-color: rgb(240, 235, 229);
+    margin-top: 20px;
+}
+
+.list2>p {
+    font-size: 20px;
+    font-weight: 500;
+    color:  rgb(60, 52, 60);
+    padding: 50px 0px 20px 0px;
+    letter-spacing: 1px;
+}
+
+.list2>h1{
+    font-size: 50px;
+    margin-top: 20px;
+    color:  rgb(131, 97, 131);
+}
+
+.list2>.type{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px;
+}
+
+.list2>.type>div{
+    width: 25%;
+    font-size: 18px;
+    background-color: rgb(234, 225, 236);
+    padding: 30px;
+}
+
+.list2>.type>div>p{
+    margin: 20px 0px;
+}
+
+.list2>.type>div>button{
+    padding: 15px;
+    font-size: 14px;
+    border: 2px solid rgb(131, 97, 131);
+    margin: 15px 0px;
+    cursor: pointer;
+    background-color: rgb(227, 227, 217);
+}
+
+.contact{
+    width: 100%;
+    height: 500px;
+    text-align: center;
+    padding: 50px;
+}
+
+.contact>h4{
+    font-size: 35px;
+    color: rgb(131, 97, 131);
+    letter-spacing: 1px;
+}
+
+.contact>h1{
+    font-size: 55px;
+    margin-top: 30px;
+    letter-spacing: 1px;
+}
+
+.contact>p{
+    margin-top: 20px;
+    margin-bottom: 35px;
+    font-size: 22px;
+}
+
+.contact>button{
+    padding: 10px;  
+    font-size: 17px;
+    letter-spacing: 2px;
+    border: none;
+    background-color: rgb(168, 168, 163);
+}
+
+.contact>button:hover{
+    border: 2px solid black;
+}

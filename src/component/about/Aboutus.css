@@ -1,0 +1,90 @@
+.container {
+  width: 100%;
+}
+
+.container>img {
+  width: 100%;
+  height: 100%;
+}
+
+.p {
+  text-align: center;
+  color: rgb(133, 109, 133);
+  margin-top: 30px;
+  font-size: 24px;
+}
+
+.h1 {
+  text-align: center;
+  color: rgb(131, 97, 131);
+  font-weight: 500;
+  font-size: 50px;
+  padding: 20px;
+}
+
+.main {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(242, 233, 221);
+  line-height: 30px;
+}
+
+.gp {
+  width: 40%;
+  text-align: left;
+  padding: 10px;
+}
+
+.h2 {
+  margin-bottom: 30px;
+  color: rgb(131, 97, 131);
+  font-size: 34px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.gp>p {
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 25px;
+}
+
+.responsibility {
+  width: 40%;
+  text-align: left;
+  padding: 10px;
+}
+
+.responsibility>p {
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 25px;
+}
+
+.img {
+  width: 100%;
+  padding: 10px 0px;
+}
+
+.img>img{
+  width: 100%;
+}
+
+.main2{
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(242, 233, 221);
+  line-height: 30px;
+}
+
+.testing {
+  width: 100%;
+}
+
+.testing>img{
+  width: 100%;
+  padding: 15px 0px;
+}

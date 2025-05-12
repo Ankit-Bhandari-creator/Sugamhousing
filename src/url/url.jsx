@@ -1,0 +1,1 @@
+export const Image_Url = "http://localhost:5173/photo/"

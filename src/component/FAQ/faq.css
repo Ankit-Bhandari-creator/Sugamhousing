@@ -1,0 +1,86 @@
+.container {
+  width: 100%;
+  height: 600px;
+}
+
+.container>img {
+  width: 100%;
+}
+
+.p {
+  text-align: center;
+  color: rgb(133, 109, 133);
+  margin-top: 20px;
+  font-size: 24px;
+  letter-spacing: 5px;
+}
+
+.h1 {
+  text-align: center;
+  color: rgb(131, 97, 131);
+  font-weight: 500;
+  font-size: 50px;
+  padding: 10px;
+}
+
+.container3 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  margin-top: 2%;
+  padding: 20px;
+  background-color: rgb(231, 227, 221);
+}
+
+.Ques {
+  width: 40%;
+  padding: 20px;
+  margin-top: 2%;
+  margin-right: 30px;
+  background-color: rgb(244, 238, 230);
+}
+
+.contactus {
+  text-align: center;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.contactus>span {
+  font-size: 30px;
+  color: rgb(175, 161, 144);
+}
+
+.contactus>h1 {
+  font-size: 55px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-top: 15px;
+  color: rgb(131, 97, 131);
+}
+
+.contactus>p {
+  text-align: center;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.contactus>button {
+  width: 200px;
+  height: 50px;
+  border-radius: 5px;
+  background-color: rgb(131, 97, 131);
+  color: white;
+  font-size: 20px;
+  border: none;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  cursor: pointer;
+}
+
+summary {
+  font-weight: bolder;
+  font-size: 22px;
+  cursor: pointer;
+}
